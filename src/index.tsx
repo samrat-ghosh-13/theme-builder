@@ -1,15 +1,27 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+
+// constants
+import themes from "./theme/schema.json";
+
+// utils
+import { saveState } from "./utils/localstorage";
 
 const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
+  document.getElementById("root") as HTMLElement
 );
+
+const Index = () => {
+  saveState(themes, "all-themes");
+  return <App />;
+};
+
 root.render(
   <React.StrictMode>
-    <App />
+    <Index />
   </React.StrictMode>
 );
 

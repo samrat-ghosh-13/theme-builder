@@ -2,6 +2,11 @@
   "name": "theme-builder",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "email": "samratat@gmail.com",
+    "name": "Samrat Ghosh",
+    "url": "https://www.linkedin.com/in/samratat"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -10,11 +15,15 @@
     "@types/node": "^16.11.39",
     "@types/react": "^18.0.12",
     "@types/react-dom": "^18.0.5",
+    "lodash": "^4.17.21",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-scripts": "5.0.1",
+    "shortid": "^2.2.16",
+    "styled-components": "^5.3.5",
     "typescript": "^4.7.3",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "webfontloader": "^1.6.28"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -39,5 +48,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.182",
+    "@types/shortid": "^0.0.29",
+    "@types/styled-components": "^5.1.25",
+    "@types/webfontloader": "^1.6.34"
   }
 }
