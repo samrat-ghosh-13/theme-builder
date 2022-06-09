@@ -50,7 +50,7 @@ function App() {
               This is a theming system with a Theme Switcher and Theme Builder.
               Do you want to see the source code?{" "}
               <a
-                href="https://github.com/samrat-ghosh-13/theme-builder.git                "
+                href="https://github.com/samrat-ghosh-13/theme-builder.git"
                 target="_blank"
                 rel="noreferrer"
               >
